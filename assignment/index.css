@@ -1,0 +1,93 @@
+body {
+    background-color:aqua;
+    display: block;
+}
+.nav {
+    background: black;
+    display: block;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.nav .navbar img {
+    height: 4rem;
+    border-radius: 50%;
+    align-items: left;
+}
+.nav .navbar {
+    text-align: center;
+    display: block;
+    background-color: black;
+    border-bottom: 1.5rem;
+}
+.nav .navbar a {
+    color: goldenrod;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font:bold;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top:5rem;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.home .olist li{
+    text-align: left;
+    align-content: center;
+    font-size: 1.1rem;
+}
+.home .ulist li{
+    text-align: left;
+    align-content: center;
+    font-size: 1.1rem;
+}
+img {
+    align-items: center;
+    align-self: center;
+    height: 50;
+}
+p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.table {
+    text-align: center;
+    justify-items: center;
+}
+.media {
+    justify-items:center;
+    
+
+}
+.form {
+    justify-items: center;
+    align-items: center;
+    display: block;
+}
+input {
+    justify-items: center;
+}
+.imagecontainer {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
